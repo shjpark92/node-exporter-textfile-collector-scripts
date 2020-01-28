@@ -36,9 +36,10 @@ BEGIN {
 	help["speed_rpm"] = "Fan";
 	help["status"] = "Chassis status";
 
+
 	temperature_celsius["metric_count"] = 0;
 	volts["metric_count"] = 0;
-	amps["amps"] = 0;
+	amps["metric_count"] = 0;
 	power_watts["metric_count"] = 0;
 	speed_rpm["metric_count"] = 0;
 	status["metric_count"] = 0;
